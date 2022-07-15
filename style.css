@@ -1,0 +1,95 @@
+*{
+  padding:0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+  background-color: #CBF3F0;
+}
+.contact{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  /*height: 300px;*/
+  background-color: #2EC4B6;
+  border-radius:10px;
+  padding: 30px;
+  
+}
+input {
+  padding:10px 0px 10px 5px;
+  margin: 8px 0;
+  /*margin: 0 5px 0 5px;
+  margin: 5px 0 5px 0;*/
+  border-radius:5px;
+  border: none;
+  width:100%;
+}
+input:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+
+}
+input[type=number] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=date] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.sub{
+  padding: 10px;
+  width:100%;
+  box-sizing:border-box ;
+  border-radius:10px;
+  border: none;
+  margin-top:16px;
+  font-weight:600;
+  background-color: #FFBF69;
+  transition-duration: 0.4s;
+}
+.sub:hover{
+  background-color: gray;
+}
+
+/*.field{
+  width:100%;
+  padding: 0.5rem 1rem;
+  background-color: blue;
+  font-size: 1.1rem;
+}*/
+h3{
+  font-size:30px;
+  color: white;
+  font-weight:800;
+  color: #FFBF69;
+  margin-bottom:10px;
+}
+h6{
+  font-size: 15px;
+  color: white;
+  font-weight:300;
+}
+@media only screen and (max-width: 900px) {
+  .contact{
+    width: 70%;
+  }
+}*/
